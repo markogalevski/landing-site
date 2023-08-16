@@ -6,6 +6,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  margin: 0;
 }
 
 .header-and-title {
@@ -45,5 +46,15 @@ body {
 .newsletter {
   background-color: white;
   flex: 1;
+}
 
+.footer {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+  font-size: 12px;
 }
