@@ -1,0 +1,49 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header-and-title {
+  background-color: #1f2937;
+  flex: 1;
+}
+
+.info {
+  background-color: white;
+  flex: 1;
+}
+
+.testimonial {
+  background-color: #e5e7eB;
+  flex: 1;
+  display: flex;
+  padding: 50px 320px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 36px;
+  font-weight: extra-light;
+  color: #1F2937;
+}
+
+.source {
+  align-self: flex-end;
+  font-weight: bold;
+}
+
+
+.newsletter {
+  background-color: white;
+  flex: 1;
+
+}
